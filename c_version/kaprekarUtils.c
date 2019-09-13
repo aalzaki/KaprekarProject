@@ -25,7 +25,7 @@
 int isKaprekar(int n) {
 
   if(n < 1) {
-    return 0;                                                                   
+    return 0;
   }
 
 
@@ -37,8 +37,8 @@ int isKaprekar(int n) {
   long first, second;
   int i;
 
-  //for each possible "split" of the square...                                  //i should be declared in the for loop not outside
-  for(i=-3 ; i <= numDigits; i++) {                                             // used wrong variable numberOfDigets instead of numDigits
+  //for each possible "split" of the square...
+  for(i=-3 ; i <= numDigits; i++) {                                             
     //increase the modulus by a factor of 10                                    // i should start from - 3
     modulus *= 10;                                                              //spelling mistake
 
